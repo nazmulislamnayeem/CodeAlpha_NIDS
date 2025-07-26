@@ -4,8 +4,6 @@ This project is submitted as part of CodeAlpha Cybersecurity Internship Task 4. 
 
 
 ## 🔍 Project Objectives
-Install and configure Snort on Kali Linux.
-
 Create and apply custom rules to detect malicious traffic.
 
 Monitor a specific network interface (eth0).
@@ -39,7 +37,7 @@ sudo apt install snort -y
 
 snort -V
 
-4. Navigate to your working directory (e.g., CodeAlpha_NIDS):
+4. Navigate to your working directory:
 
 cd ~/CodeAlpha_NIDS
 
@@ -59,13 +57,9 @@ sudo snort -c /etc/snort/snort.lua -R ./custom.rules -i eth0 -A alert_fast
 ## 💻 Windows Support (Optional)
 If you want to run this project in Windows:
 
-1. Install Npcap:
+1. Install Npcap: https://npcap.com/#download
 
-https://npcap.com/#download
-
-2. Install Snort for Windows:
-
-https://www.snort.org/downloads
+2. Install Snort for Windows: https://www.snort.org/downloads
 
 Place the same custom.rules file in Snort’s rules directory.
 
@@ -89,7 +83,7 @@ Suspicious payload (e.g., "malware")
 
 Netcat usage detection
 
-Shell command access (/bin/sh)
+Shell command access
 
 
 ## 📸Output
@@ -97,7 +91,4 @@ Shell command access (/bin/sh)
 | Detection: ICMP & Netcat Usage Attempt |
 
 ![ICMP & Netcat Alert](screenshots/snort_output.png)
-=======
-# CodeAlpha_Network-Intrusion-Detection-System_NIDS
-Network Intrusion Detection System built with Snort
->>>>>>> 327e947ec5c7bb1e383866a2cb8159c1c62b693b
+======
