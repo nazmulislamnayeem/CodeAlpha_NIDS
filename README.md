@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 🛡️Network Intrusion Detection System (NIDS)
 This project is submitted as part of CodeAlpha Cybersecurity Internship Task 4. It demonstrates the setup and configuration of a network-based intrusion detection system using Snort on Kali Linux to monitor and detect suspicious/malicious activities on a network.
 
@@ -96,3 +97,7 @@ Shell command access (/bin/sh)
 | Detection: ICMP & Netcat Usage Attempt |
 
 ![ICMP & Netcat Alert](screenshots/snort_output.png)
+=======
+# CodeAlpha_Network-Intrusion-Detection-System_NIDS
+Network Intrusion Detection System built with Snort
+>>>>>>> 327e947ec5c7bb1e383866a2cb8159c1c62b693b
